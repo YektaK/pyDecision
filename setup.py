@@ -6,15 +6,17 @@ long_description = (this_directory / 'README.md').read_text()
 
 setup(
     name='pydecision',
-    version='4.9.1',
+    version='4.9.3',
     license='GNU',
     author='Valdecy Pereira',
     author_email='valdecy.pereira@gmail.com',
     url='https://github.com/Valdecy/pyDecisions',
     packages=find_packages(),
     install_requires=[
+        'google-genai',
         'llmx',
         'matplotlib',
+        'networkx',
         'numpy',
         'openai',
         'pandas',
